@@ -1,0 +1,65 @@
+# ==========================================
+# LIAS Project - Root .gitignore
+# ==========================================
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Java & Spring Boot (Backend)
+**/target/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Node.js & React (Frontend)
+**/node_modules/
+node_modules/
+**/dist/
+dist/
+build/
+coverage/
+.npm
+.vite/
+frontend/.vite/
+
+# Environment Variables & Local Configs
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# File Uploads Storage (preserve .gitkeep)
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Temporary / Scratch Files
+tmp/
+temp/
+*.tmp
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
